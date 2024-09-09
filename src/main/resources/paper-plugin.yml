@@ -1,0 +1,15 @@
+name: ChatNickPlugin
+version: '1.0'
+main: me.megalodonbait.chatNickPlugin.ChatNickPlugin
+api-version: '1.13'
+description: allows simple editing of chat nicknames
+commands:
+  nick:
+    description: lets players edit nicknames
+permissions:
+  nicknameplugin.nickself:
+    description: lets users change their own nickname
+    default: true
+  nicknameplugin.nickothers:
+    description: lets user change the nickname of other users
+    default: op
